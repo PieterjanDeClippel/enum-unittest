@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Color } from './enums/color.enum';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'enum-unittest';
+  colors = Color;
 }

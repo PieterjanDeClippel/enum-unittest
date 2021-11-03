@@ -1,0 +1,7 @@
+ng new enum-unittest --routing=false --style=scss
+cd enum-unittest
+npm start -- --open
+npm test
+
+Edit code
+
